@@ -79,7 +79,7 @@
 						((eql type 'keydown) keydown)))))
 
 (defun repl ()
-	~("$('#files').append(" ^(make-load-url "mandelbrot") ")")
+	~("$('#files').append(" ^(make-load-url "drawsquare") ")")
 
 	(let* ((handler (make-handler)))
 		~("$(window).keypress(" ^(funcall handler 'keypress) ").keydown(" ^(funcall handler 'keydown) ")")))

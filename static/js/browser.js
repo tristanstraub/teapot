@@ -223,7 +223,7 @@ var_74657874=fn_636f6e636174([var_74657874,[fn_66726f6d2d636861722d636f6465([var
 fn_6d616b652d68616e646c6572=functions['make-handler'];
 ;
 functions['repl']=(function(args) {
-$('#files').append(fn_6d616b652d6c6f61642d75726c(['mandelbrot',null]));
+$('#files').append(fn_6d616b652d6c6f61642d75726c(['drawsquare',null]));
 	return (function(args) {
 	var var_68616e646c6572=args[0];
 args=args[1];
