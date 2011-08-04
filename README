@@ -1,0 +1,12 @@
+You'll need to install node to be able to bootstrap the compiler, but it's already there under static/js/teapot.js.
+
+To test it in the browser, run ./serve.sh and navigation to http://localhost:8000/.
+You can test it at http://tristanstraub.com/projects/teapot
+
+Click on "drawsquare" to load "lisp/drawsquare.lisp".
+
+From the REPL,
+
+> (load "drawsquare")
+
+will load the same file.
