@@ -1,4 +1,10 @@
-You'll need to install node to be able to bootstrap the compiler, but it's already there under static/js/teapot.js.
+This project is unfinished but shows how a self-hosting lisp for javascript might work. It runs in the browser and using node.
+
+I'm reworking the code under github.com/tristanstraub/cl-teapot. I released it now because there are better options such as ClojureScript, which are much nicer in most respects (but not self-hosting).
+
+You'll need to install node to be able to bootstrap the compiler, but it's already there under static/js/teapot.js. You can compile lisp files with:
+
+$ node static/js/teapot.js --compile browser.lisp  > static/js/browser.lisp
 
 To test it in the browser, run ./serve.sh and navigation to http://localhost:8000/.
 You can test it at http://tristanstraub.com/projects/teapot
@@ -7,6 +13,6 @@ Click on "drawsquare" to load "lisp/drawsquare.lisp".
 
 From the REPL,
 
-> (load "drawsquare")
+$ (load "drawsquare")
 
 will load the same file.
