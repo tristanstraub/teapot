@@ -104,7 +104,7 @@ args=args[1];
 $('#output-container').prepend('<a class="file" href="' + fn_737472696e672d657363617065([var_75726c,null]) + '">' + fn_737472696e672d657363617065([var_6e616d65,null])+ '</a>');
 	return var_2a6c6f61642a([var_75726c,null]);;
 })
-([fn_636f6e636174(['/lisp/',[var_6e616d65,['.lisp',null]]]),null]);;
+([fn_636f6e636174(['lisp/',[var_6e616d65,['.lisp',null]]]),null]);;
 })
 ;
 fn_6c6f6164=functions['load'];

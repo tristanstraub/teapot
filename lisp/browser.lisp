@@ -34,7 +34,7 @@
 (defvar *load* (function 'load))
 
 (defun load (name)
-	(let* ((url (concat "/lisp/" name ".lisp")))
+	(let* ((url (concat "lisp/" name ".lisp")))
 		~("$('#output-container').prepend('<a class=\"file\" href=\"' + " ^(string-escape url) " + '\">' + " ^(string-escape name) "+ '</a>')")
 		(funcall *load*	url)))
 
