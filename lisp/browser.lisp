@@ -46,6 +46,7 @@
            (text "")
            (prev nil)
            (keypress (lambda (&rest e)
+                       ~(^e ".preventDefault()")
                        (let* ((which (get-hash e 'which)))
                          (cond ((eql which 13)
                                 (setq prev (cons text prev))
@@ -61,6 +62,7 @@
                                (t (setq text (concat text (from-char-code which)))
                                   (add-input-char input (from-char-code which)))))))
            (keydown (lambda (&rest e)
+                      ~(^e ".preventDefault()")
                       (let* ((which (get-hash e 'which)))
                         (cond ((eql which 38) ;; up arrow
                                (if prev

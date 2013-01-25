@@ -152,6 +152,7 @@ args=args[1];
 })
 ([(function(args) {
 	var var_65=args;
+var_65.preventDefault();
 	return (function(args) {
 	var var_7768696368=args[0];
 args=args[1];
@@ -179,6 +180,7 @@ var_74657874=fn_737562736571([var_74657874,[0,[(var_74657874.length-1),null]]]);
 })
 ([(function(args) {
 	var var_65=args;
+var_65.preventDefault();
 	return (function(args) {
 	var var_7768696368=args[0];
 args=args[1];
